@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -188,16 +188,16 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 30px;
   margin-right: 6px;
 }
 
 .header .logo span {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 600;
   letter-spacing: 1px;
-  color: #012970;
-  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
   margin-top: 3px;
 }
 
@@ -232,7 +232,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -248,7 +248,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #F0B1BC;
 }
 
 .navbar .getstarted,
@@ -479,15 +479,18 @@ section {
 
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 80px;
+  font-family: "Rubik", sans-serif;
   font-weight: 700;
   color: #EBECED;
 }
 
 .hero h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
   color: #EBECED;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .hero .btn-get-started {
@@ -498,14 +501,15 @@ section {
   transition: 0.5s;
   color: #295B44;
   background: #F0B1BC;
-  box-shadow: 0px 5px 30px #F0B1BC;
+  /* box-shadow: 0px 5px 30px #F0B1BC; */
 }
 
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   font-size: 16px;
-  letter-spacing: 1px;
+ /*  letter-spacing: 1px; */
 }
 
 .hero .btn-get-started i {
@@ -515,7 +519,7 @@ section {
 }
 
 .hero .btn-get-started:hover i {
-  transform: translateX(5px);
+ transform: translateX(5px);
 }
 
 .hero .hero-img {
