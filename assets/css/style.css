@@ -231,7 +231,7 @@ section {
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 00;
   color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
@@ -750,7 +750,8 @@ section {
 }
 
 .features .feture-tabs h3 {
-  color: #012970;
+  color: #295B44;
+  font-family: "Rubik", sans-serif;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -784,10 +785,18 @@ section {
 }
 
 .features .feture-tabs .tab-content h4 {
-  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
   margin: 0;
   font-weight: 700;
-  color: #012970;
+  color: #295B44;
+}
+
+.features .feture-tabs .tab-content p {
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #3B3B3B;
 }
 
 .features .feture-tabs .tab-content i {
@@ -834,6 +843,7 @@ section {
 }
 
 .features .feature-icons .content .icon-box p {
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   color: #848484;
 }
@@ -2280,17 +2290,18 @@ section {
 
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #f6f9ff;
+  background: #F0B1BC;
   border-top: 1px solid #e1ecff;
 }
 
 .footer .footer-newsletter h4 {
-  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-size: 60px;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #012970;
+  color: #f4f4f4;
 }
 
 .footer .footer-newsletter form {
