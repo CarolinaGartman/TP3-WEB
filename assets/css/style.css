@@ -180,7 +180,7 @@ section {
 .header.header-scrolled {
   background: #295B44;
   padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  /*box-shadow: 0px 2px 20px rgba(0, 52, 10, 0.1);*/
 }
 
 .header .logo {
@@ -193,11 +193,10 @@ section {
 }
 
 .header .logo span {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 25px;
   letter-spacing: 1px;
   color: #ffffff;
-  font-family: "Rubik", sans-serif;
+  font-family: "Arvo", sans-serif;
   margin-top: 3px;
 }
 
@@ -229,8 +228,8 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Signika", sans-serif;
+  font-size: 18px;
   font-weight: 00;
   color: #ffffff;
   white-space: nowrap;
@@ -473,20 +472,20 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/heroimg1.png) top center no-repeat;
+  background: url(../img/herocompleto.png) top center no-repeat;
   background-size: cover;
 }
 
 .hero h1 {
   margin: 0;
   font-size: 80px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Signika", sans-serif;
   font-weight: 700;
   color: #EBECED;
 }
 
 .hero h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Signika", sans-serif;
   font-weight: 400;
   color: #EBECED;
   margin: 15px 0 0 0;
@@ -499,17 +498,17 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #295B44;
-  background: #F0B1BC;
+  color: #fff;
+  background: #E19EAA;
   /* box-shadow: 0px 5px 30px #F0B1BC; */
 }
 
 .hero .btn-get-started span {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Signika", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 16px;
- /*  letter-spacing: 1px; */
+  letter-spacing: 1px; 
 }
 
 .hero .btn-get-started i {
@@ -573,21 +572,24 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
+  /*background-color: #f6f9ff;*/
   padding: 40px;
 }
 
 .about h3 {
   font-size: 16px;
   font-weight: 700;
-  font-family: "open sans", sans-serif;
-  color: #295B44;
+  font-family: "Signika", sans-serif;
+  color: #3E3E3E;
   text-transform: uppercase;
+  font-style: normal;
+  line-height: 110.391%; /* 27.598px */
+  letter-spacing: 5.875px;
 }
 
 .about h2 {
-  font-family: "Rubik", sans-serif;
-  font-size: 40px;
+  font-family: "Signika", sans-serif;
+  font-size: 50px;
   font-weight: 700;
   color: #295B44;
 }
@@ -633,7 +635,7 @@ section {
 --------------------------------------------------------------*/
 .values .box {
   padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  /*box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);*/
   text-align: center;
   transition: 0.3s;
   height: 100%;
@@ -645,16 +647,26 @@ section {
   transform: scale(1.1);
 }
 
-.values .container .section-header p {
-  font-family: "Rubik", sans-serif;
+.values .container .section-header h2{
+  font-family: "Signika", sans-serif;
+  color:#3E3E3E ;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  line-height: 110.391%; /* 27.598px */
+  letter-spacing: 5.875px;
+}
+
+.values .container .section-header p {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
   color: #345948;
   line-height: 110%;
 }
 
 .values .box h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Signika", sans-serif;
   font-size: 26px;
   color: #345948;
   font-weight: 700;
@@ -662,15 +674,17 @@ section {
 }
 
 .values .box p{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Signika", sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #292929;
 }
 
+/*
 .values .box:hover {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
+*/
 
 .values .box:hover img {
   transform: scale(1);
@@ -724,6 +738,7 @@ section {
 }
 
 .features .feature-box h3 {
+  font-family: "Signika", sans-serif;
   font-size: 18px;
   color: #012970;
   font-weight: 700;
@@ -751,9 +766,9 @@ section {
 
 .features .feture-tabs h3 {
   color: #295B44;
-  font-family: "Rubik", sans-serif;
+  font-family: "Signika", sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
@@ -785,18 +800,22 @@ section {
 }
 
 .features .feture-tabs .tab-content h4 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 22px;
+  font-family: "Signika", sans-serif;
+  font-size: 30px;
   margin: 0;
   font-weight: 700;
   color: #295B44;
 }
 
 .features .feture-tabs .tab-content p {
-font-family: "Open Sans", sans-serif;
+font-family: "Signika", sans-serif;
 font-weight: 500;
-font-size: 16px;
+font-size: 20px;
 color: #3B3B3B;
+}
+
+.features #tab1 {
+  padding-top: 35px;
 }
 
 .features .feture-tabs .tab-content i {
@@ -1006,6 +1025,11 @@ color: #3B3B3B;
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+
+.pricing {
+  background-color: #F0B1BC;
+}
+
 .pricing .box {
   padding: 40px 20px;
   background: #fff;
@@ -1105,13 +1129,19 @@ color: #3B3B3B;
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
+
+.faq {
+  font-family: "Signika", sans-serif;
+}
+
 .faq .accordion-collapse {
   border: 0;
 }
 
 .faq .accordion-button {
   padding: 15px 15px 20px 0;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: "Signika", sans-serif;
   border: 0;
   font-size: 18px;
   color: #444444;
@@ -1124,7 +1154,7 @@ color: #3B3B3B;
 
 .faq .accordion-button:not(.collapsed) {
   background: none;
-  color: #4154f1;
+  color: #345948;
   border-bottom: 0;
 }
 
@@ -2290,18 +2320,20 @@ color: #3B3B3B;
 
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #F0B1BC;
+  background-color: #235D42;
   border-top: 1px solid #e1ecff;
 }
 
 .footer .footer-newsletter h4 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Signika", sans-serif;
   font-size: 60px;
   margin: 0 0 10px 0;
   padding: 0;
+  padding-top: 10px;
   line-height: 1;
   font-weight: 700;
-  color: #f4f4f4;
+  color: #FEFEFE;
+  text-transform: uppercase;
 }
 
 .footer .footer-newsletter form {
