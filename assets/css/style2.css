@@ -73,6 +73,14 @@ section {
     font-size: 28px;
     line-height: 32px;
   }
+
+  section {
+    padding: 40px 0;
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -898,11 +906,6 @@ section {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  .features .feture-tabs h3 {
-    font-size: 40px;
-  }
-}
 
 .features .feture-tabs .nav-pills {
   border-bottom: 1px solid #eee;
@@ -996,10 +999,11 @@ width: 80%;
   }
 
   .features .miembros {
-    padding-left: 100px;
-    padding-right: 100px;
     text-align: center;
     line-height: 122.891%; 
+    margin-inline: auto;
+    width: 80%;
+    margin-bottom: 20px;
   }
 
   .features #elegirnos .puntos {
@@ -1009,12 +1013,40 @@ width: 80%;
   .features .textospuntos {
     text-align: center;
   }
+
+  .features .tab-content img {
+    width: 80px; /* Ancho deseado para el icono */
+    height: 80px; /* Alto deseado para el icono */
+    background-size: cover; 
+    margin-right: 15px;
+    margin-bottom: 12px;
+  }
 }
 
 @media (max-width: 768px) {
   .features .feature-icons h3 {
     font-size: 28px;
   }
+}
+
+@media (max-width: 768px) {
+  .features .feture-tabs h3 {
+    font-size: 40px;
+  }
+
+  .features .tab-content .cuidados {
+    margin-right: 0;
+    margin-inline: auto;
+  }
+
+  .features .feture-tabs .tab-content h4 {
+    font-size: 25px;
+  }
+
+  .features .feture-tabs .tab-content p {
+    font-size: 17px;
+  }
+
 }
 
 .features .feature-icons .content .icon-box {
@@ -1330,6 +1362,7 @@ width: 80%;
   background: #4154f1;
   color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # F.A.Q
@@ -1655,6 +1688,18 @@ width: 80%;
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+@media (max-width: 768px) {
+
+  .portfolio .section-header p {
+    font-size: 40px;
+    line-height: 110.391%;
+  }
+
+  .portfolio #portfolio-flters {
+    padding: 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -2140,6 +2185,8 @@ width: 80%;
   border-color: #295B44;
 }
 
+
+
 .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email] {
   padding: 10px 15px;
@@ -2167,6 +2214,21 @@ width: 80%;
 }
 
 @media (max-width: 992px) {
+
+  .contact {
+    padding-top: 60px;
+  }
+
+  .contact .section-header h2 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .contact .section-header p {
+    text-align: center;
+    margin: 0;
+  }
+
   .contact button {
     margin-left: 0;
   }
@@ -2185,6 +2247,7 @@ width: 80%;
     transform: rotate(360deg);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Blog
