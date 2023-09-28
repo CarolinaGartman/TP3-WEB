@@ -1057,10 +1057,17 @@ width: 80%;
 .features2 .feture-tabs .tab-content h4 {
   font-family: "Signika", sans-serif;
   font-size: 28px;
-  margin: 0;
   font-weight: 700;
   color: #295B44;
 }
+
+.features2 .feture-tabs .tab-content p {
+  font-family: "Signika", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #3B3B3B;
+  width: 80%;
+  }
 
 @media (max-width: 768px) {
   .features2 .feture-tabs h3 {
@@ -1081,17 +1088,30 @@ width: 80%;
   }
 
   .features2 .puntos {
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
     margin-inline: auto;
-    width: 80%;
   }
 
   .features2 .textospuntos {
     margin-inline: auto;
     text-align: center;
+    width: 85%;
+  }
+
+  .features2 .feture-tabs .tab-content p {
+    width: 90%;
+  }
+
+  .features2 .feture-tabs .tab-content h4 {
     width: 80%;
   }
+
+  .features2 .img-fluid {
+    margin-bottom: -40px;
+    margin-top: 20px;
+  }
+
 
   .features2 .featuretabs .tab-content h4 {
     margin-inline: auto;
@@ -1123,13 +1143,6 @@ width: 80%;
 
 
 
-.features2 .feture-tabs .tab-content p {
-font-family: "Signika", sans-serif;
-font-weight: 400;
-font-size: 20px;
-color: #3B3B3B;
-width: 80%;
-}
 
 .features2 #tab1 {
   padding-top: 35px;
@@ -1176,9 +1189,7 @@ width: 80%;
 
 @media (max-width: 768px) {
 
-  .features2 .feture-tabs .tab-content p {
-    width: 100%;
-  }
+
 
   .features2 .miembros {
     padding-left: 100px;
@@ -1904,6 +1915,11 @@ width: 80%;
 
 @media (max-width: 1199px) {
 
+  .testimonials {
+    padding-top: 48px;
+    padding-bottom: 40px;
+  }
+
   .testimonials .section-header p{
     font-family: "Signika", sans-serif;
     color: #295B44;
@@ -2101,11 +2117,13 @@ width: 80%;
     line-height: 110.391%;
     text-align: center;
     font-size: 50px;
+    margin-top: 29px;
   }
 
   .recent-blog-posts2 {
     background-image: url(../img/transformamobile.png);
     background-size: cover;
+    background-position: top center;
     margin-inline: auto;
   }
 
@@ -2194,11 +2212,17 @@ width: 80%;
   letter-spacing: 0;
   color: #345948;
   font-weight: 700;
+  text-align: left;
+  margin-left: 27px;
 }
 
 .contact .dudas {
   width: 80%;
   margin-left: 50px;
+}
+
+.contact .section-header {
+  padding: 0;
 }
 
 .contact .section-header h2 {
@@ -2209,6 +2233,9 @@ width: 80%;
   color: #161616;
   font-weight: 400;
   padding-top: 30px;
+  text-align: left;
+  margin-left: 27px;
+  margin-bottom: 0;
 }
 
 .contact .info-box h3 {
@@ -2285,6 +2312,8 @@ width: 80%;
   border-color: #295B44;
 }
 
+
+
 .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email] {
   padding: 10px 15px;
@@ -2312,6 +2341,21 @@ width: 80%;
 }
 
 @media (max-width: 992px) {
+
+  .contact {
+    padding-top: 30px;
+  }
+
+  .contact .section-header h2 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .contact .section-header p {
+    text-align: center;
+    margin: 0;
+  }
+
   .contact button {
     margin-left: 0;
   }
@@ -3017,7 +3061,19 @@ width: 80%;
 }
 
 .footer .footer-top .footer-contact p {
+  font-family: "Signika", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
   line-height: 26px;
+  text-align: left;
+}
+
+.footer .footer-top h4 {
+  font-family: "Signika", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
 }
 
 .footer .copyright {
