@@ -548,13 +548,20 @@ section {
 .hero .hero-img {
   text-align: right;
   margin-top: 45px;
-  max-width: 100%;
   align-items: center;
 }
 
 .hero .container .img-fluid {
   margin-left: 0;
   width: 1500px;
+}
+
+.hero .hero-img .img-fluid {
+  max-width:fit-content;
+  width: 1100px;
+  margin-inline: auto;
+  padding-right: 250px;
+  margin-left: -120px;
 }
 
 @media (min-width: 1024px) {
@@ -570,16 +577,16 @@ section {
   }
 
   .hero .hero-img {
-    text-align: center;
-    margin-top: 80px;
+    text-align: right;
+    margin-top: 45px;
   }
-
-  .hero .hero-img img {
-    width: 500px;
-    height: auto;
-    margin: auto;
-    margin-left: 65px;
-
+  
+  .hero .hero-img .img-fluid {
+    max-width:fit-content;
+    width: 1100px;
+    margin-inline: auto;
+    padding-right: 250px;
+    margin-left: -150px;
   }
 
 }
@@ -607,8 +614,9 @@ section {
     margin-inline: auto;
   }
 
-  .hero .hero-img img {
-    width: 100%;
+  .hero .hero-img {
+    text-align: center;
+    margin-top: 80px;
   }
 
   .hero .hero-img img {
@@ -620,8 +628,9 @@ section {
     padding-right: 0;
     padding:0;
     margin-inline: auto;
-    margin-left: 0px;
+    margin-left: -45px;
     width: 500PX;
+    margin-top: 0;
   }
 
   
