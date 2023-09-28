@@ -525,6 +525,7 @@ section {
 .hero .hero-img {
   text-align: right;
   margin-top: 45px;
+  max-width: 100%;
 }
 
 @media (min-width: 1024px) {
@@ -582,6 +583,7 @@ section {
 .about .content {
   /*background-color: #f6f9ff;*/
   padding: 40px;
+  margin-top: 70px;
 }
 
 .about h3 {
@@ -600,6 +602,7 @@ section {
   font-size: 50px;
   font-weight: 700;
   color: #295B44;
+  width: 80%;
 }
 
 .about p {
@@ -641,8 +644,14 @@ section {
 
 @media (max-width: 768px) {
 
+  .about .content {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
   .about h2 {
     font-size: 40px;
+    width: 100%;
   }
   
   .about h3 , h2 {
@@ -654,7 +663,7 @@ section {
   }
   .about img {
     text-align: center;
-    margin-left: 18px;
+    margin-left: 8px;
   }
 }
 
@@ -1626,6 +1635,15 @@ width: 80%;
 }
 
 @media (max-width: 1199px) {
+
+  .testimonials .section-header p{
+    font-family: "Signika", sans-serif;
+    color: #295B44;
+    font-size: 50px;
+    line-height: 110.391%;
+    margin-top: 20px;
+  }
+
   .testimonials .swiper-slide-active {
     opacity: 1;
   }
